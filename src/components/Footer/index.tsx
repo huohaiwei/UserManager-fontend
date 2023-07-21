@@ -20,6 +20,12 @@ const Footer: React.FC = () => {
           blankTarget: true,
         },
         {
+          key: 'codeNav',
+          title: '桂ICP备2022008775号',
+          href: 'https://beian.miit.gov.cn/',
+          blankTarget: true,
+        },
+        {
           key: 'github',
           title: (
             <>

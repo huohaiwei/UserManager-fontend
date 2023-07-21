@@ -12,7 +12,7 @@ import { stringify } from 'querystring';
  */
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ? 'http://43.143.160.58' : undefined,
+  prefix: process.env.NODE_ENV === 'production' ? 'http://myqchl.cn' : undefined,
   // requestType: 'form',
 });
 
